@@ -1,5 +1,10 @@
 # archlinux-build-mongodb-docker
 
+Install packages need to run mongo
+```bash
+pacman -Sy --needed --noconfirm boost-libs curl libstemmer pcre snappy yaml-cpp glibc
+```
+
 Install by using this script
 ```bash
 tar xzf mongodb-arch-r6.0.9.tar.gz
